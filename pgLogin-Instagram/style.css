@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.container-instagram{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+    
+}
+.instagram-telefone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+
+}
+.instagram-telefone img{
+    height: 50rem;
+}
+
+.instagram-login{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+    flex-direction: column;
+    width: 50%;
+    min-height: 34rem;
+}
+.grupo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+
+.groupo:nth-child(1){
+    min-height: 19rem;
+}
+.instagram-logo{
+    height: 3rem;
+}
+.foto-perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 1rem 0 1rem;
+    overflow: hidden;
+}
+.foto-perfil img{
+    height: 6rem;
+}
+.instagram-acessar{
+    background-color: #0095f6;
+    color:#fff;
+    padding: 8px;
+    border-radius: 4px;
+    
+}
+.instagram-sair{
+    color:#0095f6;
+    margin-top: 1rem;
+}
